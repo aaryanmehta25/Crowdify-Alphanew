@@ -1,0 +1,2 @@
+# Crowdify-Alphanew
+The goal of the project is to create an online donation portal that will make it simple for anyone to be able to donate to their preferred charity/organisation/individual. Many charitable organisations are making a concerted effort to raise funds. The fundamental concept is to assist consumers in selecting preferred charitable organisations and sending contribution information to those organisations over the internet.
