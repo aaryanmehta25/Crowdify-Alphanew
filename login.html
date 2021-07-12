@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login">
+        <div class="form-box">
+          <div class="button1">
+              <div id="btn"></div>
+                <button type="button" class="toggle" onclick="login()">Log In</button>
+                <button type="button" class="toggle" onclick="register()">Register</button>
+         </div>
+    <div class="icons">
+        <img src="fb.png">
+        <img src="tw.png">
+        <img src="gp.png">
+    </div>
+    <form id="login" class="input">
+        <input type="text" class="inputf" placeholder="User Id" required>
+        <input type="password" class="inputf" placeholder="Enter password" required>
+        <input type="checkbox" class="checkb"><span>Remember password</span>
+        <button type="submit" class="submit">Log In</button>
+    </form> 
+    <form id="register" class="input">
+        <input type="text" class="inputf" placeholder="User Id" required>
+        <input type="email" class="inputf" placeholder="Enter Email Id" required>
+        <input type="password" class="inputf" placeholder="Enter password" required>
+        <input type="checkbox" class="checkb"><span>I agree to Terms and Conditions</span>
+
+
+
+        <button type="submit" class="submit">Register</button>
+        
+    </form>
+    </div>
+    </div>
+
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("register");
+        var z=document.getElementById("btn");
+
+
+        function register()
+        {
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+            
+        }
+        function login()
+        {
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+            
+        }
+    </script>
+
+
+</body>
+<style>
+    body {
+      background-image: url('https://i.pinimg.com/originals/4a/94/26/4a94268541d7a0ed95a8be5138e8a288.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+</html> 
